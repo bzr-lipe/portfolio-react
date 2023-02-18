@@ -1,0 +1,141 @@
+.header {
+    display: flex;
+    height: 100vh;
+    align-items: center;
+}
+
+
+
+.header-text-content {
+    padding: 0px 300px;
+}
+
+.header-text-content h1{
+    font-size: 70px;
+    color: var(--light-purple);
+}
+
+.header-text-content h1 span {
+    color: var(--purple);
+}
+
+.header-text-animation{
+    background-color: var(--dark-gray);
+    height: 90px;
+    width: 400px;
+    margin-left: 425px;
+    border-left: 2px solid var(--light-purple);
+    z-index: 1;
+    position: absolute;
+    animation: text-animation 2s infinite,
+    font-animation 4s steps(1);
+}
+
+@keyframes font-animation {
+    0%{
+        margin-left: 86px;
+    }
+    12.5%{
+        margin-left: 125px;
+    }
+    25%{
+        margin-left: 170px;
+    }
+    37.5%{
+        margin-left: 215px;
+    }
+    50%{
+        margin-left: 255px;
+    }
+    62.5%{
+        margin-left: 300px;
+    }
+    75%{
+        margin-left: 340px;
+    }
+    87.5%{
+        margin-left: 380px;
+    }
+
+    100%{
+        margin-left: 425px;
+    }
+}
+
+@keyframes text-animation {
+    0%{
+        border:none;
+    }
+
+    25%{
+        border-left: 2px solid var(--light-purple);
+    }
+
+    50%{
+        border:none;
+    }
+
+    75%{
+        border-left: 2px solid var(--light-purple);
+    }
+
+    100%{
+        border:none;
+    }
+
+}
+
+.header-text-content h2 {
+    font-size: 20px;
+    font-weight: 400;
+    color: var(--purple);
+    margin-left: 84px;
+}
+
+.header-subtitle {
+    background-color: var(--purple);
+    color: #fff;
+    width: fit-content;
+    padding: 3px 10px;
+    margin-top: 10px;
+    margin-left: 84px;
+}
+
+.scroll-down {
+    position: absolute;
+    bottom: 20px;
+    text-transform: uppercase;
+    font-size: 11px;
+    font-weight: 300;
+    color: var(--light-purple);
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.scroll-down i {
+    font-size: 30px;
+    margin-bottom: 10px;
+    color: var(--purple);
+    animation: arrow-animation 3s infinite;
+}
+
+@keyframes arrow-animation {
+    0%{
+        margin-bottom: 0px;
+    }
+    25%{
+        margin-bottom: 10px;
+    }
+    50%{
+        margin-bottom: 0px;
+    }
+    75%{
+        margin-bottom: 10px;
+    }
+    100%{
+        margin-bottom: 0px;
+    }
+}

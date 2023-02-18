@@ -15,8 +15,6 @@ const Navbar = () => {
                 <li className="nav-list-item"><a href="https://www.linkedin.com/in/lp-bzr/" target="_blank" rel="noreferrer"><i><FaLinkedin/></i></a></li>
                 <li className="nav-list-item"><a href="https://github.com/bzr-lipe" target="_blank" rel="noreferrer"><i><FaGithubSquare/></i></a></li>
             </ul>
-            <script src="https://kit.fontawesome.com/362467b89b.js" crossorigin="anonymous"></script>
-
         </div>
         
     )
