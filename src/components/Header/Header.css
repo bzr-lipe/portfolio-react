@@ -139,3 +139,53 @@
         margin-bottom: 0px;
     }
 }
+
+@media (max-width: 480px) {
+    .header-text-content {
+        padding: 0;
+    }
+
+    .header-text-content h1{
+        font-size: 50px;
+        margin-left: 15px;
+    }
+
+    .header-text-content h2, .header-subtitle{
+        margin-left: 73px;
+    }
+
+    .header-text-animation {
+        height: 65px;
+        margin-left: 305px;
+    }
+
+    @keyframes font-animation {
+        0%{
+            margin-left: 59px;
+        }
+        12.5%{
+            margin-left: 90px;
+        }
+        25%{
+            margin-left: 125px;
+        }
+        37.5%{
+            margin-left: 155px;
+        }
+        50%{
+            margin-left: 185px;
+        }
+        62.5%{
+            margin-left: 212px;
+        }
+        75%{
+            margin-left: 240px;
+        }
+        87.5%{
+            margin-left: 270px;
+        }
+        100%{
+            margin-left: 10px;
+        }
+    }
+  }

@@ -74,3 +74,13 @@ body {
 .nav-list-item a:hover{
     color: var(--purple);
 }
+
+@media (max-width: 480px) {
+    .navbar {
+        padding: 0;
+    }
+
+    .navbar ul {
+        display: none;
+    }
+  }
